@@ -108,13 +108,6 @@ Supported arguments:
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 ## Education
 
