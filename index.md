@@ -4,12 +4,15 @@ title:
 email:
   url: dyrnxm52@hanmail.net
   text: dyrnxm52@hanmail.net
-homepage:
-  url: https://velog.io/@seong-dodo
-  text: https://velog.io/@seong-dodo
+blog:
+  url: https://syundev.tistory.com/
+  text: https://syundev.tistory.com/
+github:
+  url: https://github.com/pa324
+  text: https://github.com/pa324
 ---
 
-# 김성화
+# 
 
 <!--
 include contact information from the front matter
@@ -22,98 +25,83 @@ Supported arguments:
 {% include cv-contact.html %}
 
 
-
 ## Project
 
-### [**Mine 웹애플리케이션 개발 : 개인 가계부**](https://github.com/CodeSoom/project-react-4-seong-dodo) `2021.07 - 2021.09`
+### [**ESM+ 상품 일괄등록 API Phase1 개발**]
 
 ### 1. 소개
   
-- 가계부 작성을 기반으로 "나의 것"을 지키는 습관을 만들어주고 더 나아가 "자산 관리"로 이어지도록 다양한 정보를 제공하는 서비스입니다.
+- 지마켓,옥션 통합상품관리 플랫폼인 ESM+에서 2.0 일반상품을 엑셀에 입력하여 대량으로 등록할 수 있는 API 개발 
 
-### 2. 프로젝트 목표
-  
-- [Phase1](https://github.com/CodeSoom/project-react-4-seong-dodo/tree/week10) : 백엔드 API 없이 프론트엔드 환경에서만 돌아갈 수 있는 웹애플리케이션을 React와 Redux를 이용해서 개발
-- [Phase2](https://github.com/CodeSoom/project-react-4-seong-dodo/tree/week11) : Phase 1에서 완료한 프론트엔드 환경에서 백엔드 API를 붙여서 영구적인 데이터 저장이 가능하도록 개발
+### 2. 기술스택
+
+- Java 11, Spring Boot 2.3.3, Apache Kafka,Apache poi MSSQL, Vue.js, Typescript
+
    
 ### 3. 역할
  
-- 가계부에 활용가능한 Calendar UI 컴포넌트를 라이브러리없이 개발
-- Jest를 이용해서 모든 컴포넌트의 Unit Test 작성
-- JWT기반 로그인 기능 구현
-- 가계부 조회에 필요한 모달 컴포넌트 개발
-- 가계부 등록/수정에 필요한 모달 컴포넌트 개발
-- 거래내역 화면 무한스크롤 개발
-- 로딩컴포넌트 개발
-- 모바일 환경에서 이용가능하도록 반응형 CSS 적용 (모바일,태블릿,pc)
+- Apache POI를 활용해서 엑셀파일을 자바객체로 변환하는 모듈 개발
+- 인터페이스를 활용해서 상품등록에 필요한 json모델로 변환하는 컨버팅 로직 개발
+- 상품 대량등록시 멱득성 보장을 위해 처리현황별 상태 업데이트 로직 개발
+- 컨버팅 로직 및 엑셀 파싱 모듈에 단위테스트코드 작성
+- 일괄등록 비동기 현황조회를 위한 프론트엔드 컴포넌트들을 Vue.js와 Typescript를 사용해서 구현
   
-### 4. 기술스택
-
-- Javascript, React, Redux, HTML/CSS, Jest
-
-### 5. github repository
-
-- [Mine 프로젝트 Repository 바로가기](https://github.com/CodeSoom/project-react-4-seong-dodo)
-
-
 
 <br>
 <br>
 
-
-
-### [**github-finder-program : 깃허브 친구 찾기 프로그램**](https://github.com/seong-dodo/github-finder-program) `2021.10 - 2021.10`
+### [**옥션 실시간 이미지 리사이징 전환**]
 
 ### 1. 소개
   
-- 깃허브 친구 찾기 검색 서비스입니다.
+- 원본이미지만 NAS에 저장하고 나머지 이미지 사이즈들은 실시간 리사이징으로 전환하는 프로젝트
 
-### 2. 프로젝트 목표
+### 2. 기술스택
+
+- Java 11, Spring Boot 2.3.3, Ehcache
+
+### 3. 역할
+
+- iac-image애플리케이션에 로컬캐시 적용 및 코드의 안정성을 올리기위해 단위테스트코드 작성
+  - 서킷브레이커 open/close관련 단위테스트코드 작성
+  - 원본이미지 제공용 iis서버 세팅
+- iac-image애플리케이션 쿠버네티스 인프라 설정 작업
+
+<br>
+<br>
+
+### [**통합 재고 API 유지보수 **]
+
+### 1. 소개
   
-- 요구 사항 구현을 위한 전략을 세워 바닐라 자바스크립트로 코드 구현
-- class를 활용해서 컴포넌트 단위로 코드 구현
-   
-### 3. 기술스택
+- 2.0 상품의 통합재고 API를 유지보수하는 업무를 담당했습니다.
 
-- Javascript, HTML/CSS
+### 2. 기술스택
 
-### 4. github repository
+- Java 11, Spring Boot 2.3.3
 
-- [깃허브 친구 찾기 프로그램 프로젝트 Repository 바로가기](https://github.com/seong-dodo/github-finder-program)
+### 3. 역할
 
+- 물리서버에서 수집하던 통합재고 API의 모니터링 인프라를 클라우드 환경으로 이관
+- 운영중인 서비스 쿠버네티스 신규 클러스터로 이관
 
-<br>
-<br>
-
-<br>
-<br>
-<br>
 
 
 ## Education
 
 
+### **NEXT STEP** `2021.4 - 2021.5`
 
-### **코드잇 온라인 강의** `2020.11 ~ `
 
-온라인으로 HTML/CSS, JavaScript, React강의를 들으면서 FrontEnd개발자가 되기 위한 기본기를 다졌습니다.
+레거시 시스템을 유지보수하면서 테스트 코드가 없어서 리팩토링하기 힘들고 작은 수정에도 사이드이펙트가 많이 발생하는 경험을 했었습니다. 테스트 코드의 필요성을 느끼고 신규 프로젝트 및 개발요건에는 테스트코드를 작성 코드의 안전성을 올리고 싶어서 NEXT STEP의 [ATDD](https://edu.nextstep.camp/c/R89PYi5H/s)과정을 이수했습니다. 
+
+- [atdd-subway-path](https://github.com/pa324/atdd-subway-path)
+- [atdd-subway-favorite](https://github.com/pa324/atdd-subway-favorite)
+- [atdd-subway-map](https://github.com/pa324/atdd-subway-map)
 
 
 <br>
 
-
-
-### **코드숨 리액트** `2021.5 - 2021.7`
-
-코드 리뷰와 실제 개발문화를 경험해보고 싶어서 신청했습니다. 순수 자바스크립트로 구현한 코드에서 점진적으로 React로 발전하는 주차별 과제를 수행했고. 모든 컴포넌트에 유닛테스트 코드를 작성하면서 요구사항대로 잘 돌아가는 코드를 만들기 위해서 노력했습니다. 모든 과제마다 코드리뷰를 받으면서 좋은 코드를 작성하기 위해서 노력했습니다.
-- [codesoom-projects Repository 바로가기](https://github.com/seong-dodo/codesoom-projects)
-
-<br>
-
-
-### **창원대학교** `2010 - 2014`
-
-환경공학과 학사 졸업
 
 
 
