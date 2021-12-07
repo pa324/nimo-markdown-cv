@@ -28,6 +28,9 @@ Supported arguments:
 
 ## Project
 
+<br>
+<br>
+
 ### [**ESM+ 상품 일괄등록 API Phase1 개발**]
 
 ### 1. 소개
@@ -85,9 +88,11 @@ Supported arguments:
 
 - 물리서버에서 수집하던 통합재고 API의 모니터링 인프라를 클라우드 환경으로 이관
 - 운영중인 서비스 쿠버네티스 신규 클러스터로 이관
+- 
+<br>
+<br>
 
-
-### [**ListingQuotaService라 유지보수**]
+### [**ListingQuotaService 유지보수**]
 
 ### 1. 소개
   
@@ -101,7 +106,11 @@ Supported arguments:
 
 ## Education
 
-### **NEXT STEP** `2021.4 - 2021.5`
+<br>
+<br>
+
+
+### **ATDD과정** `2021.4 - 2021.5`
 
 <br>
 
