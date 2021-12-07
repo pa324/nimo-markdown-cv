@@ -21,13 +21,14 @@ Supported arguments:
 
 {% include cv-contact.html %}
 
+## Work experience
+
+### **eBay Korea** `2020.6 ~`
+
 
 ## Project
 
 <br>
-<br>
-
-### ebay korea (2020.06 ~ )
 
 ### [**ESM+ 상품 일괄등록 API Phase1 개발**]
 
