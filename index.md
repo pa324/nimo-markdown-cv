@@ -27,6 +27,8 @@ Supported arguments:
 <br>
 <br>
 
+### ebay korea (2020.06 ~ )
+
 ### [**ESM+ 상품 일괄등록 API Phase1 개발**]
 
 ### 1. 소개
