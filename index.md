@@ -115,7 +115,7 @@ Supported arguments:
 
 <br>
 
-레거시 시스템을 유지보수하면서 테스트 코드가 없어서 리팩토링하기 힘들고 작은 수정에도 사이드이펙트가 많이 발생하는 경험을 했었습니다. 테스트 코드의 필요성을 느끼고 신규 프로젝트 및 개발요건에는 테스트코드를 작성 코드의 안전성을 올리고 싶어서 NEXT STEP의 [ATDD](https://edu.nextstep.camp/c/R89PYi5H/s)과정을 이수했고 Production 코드에 테스트를 도입하기위해 
+레거시 시스템을 유지보수하면서 테스트 코드가 없어서 리팩토링하기 힘들고 작은 수정에도 사이드이펙트가 많이 발생하는 경험을 했었습니다. 테스트 코드의 필요성을 느끼고 신규 프로젝트 및 개발요건에는 테스트코드를 작성 코드의 안전성을 올리고 싶어서 NEXT STEP의 [ATDD](https://edu.nextstep.camp/c/R89PYi5H/s)과정을 이수했고 Production 코드에 테스트를 도입하기위해 노력하고있습니다.
 
 - [atdd-subway-path](https://github.com/pa324/atdd-subway-path)
 - [atdd-subway-favorite](https://github.com/pa324/atdd-subway-favorite)
