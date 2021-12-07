@@ -4,13 +4,9 @@ title:
 email:
   url: pa324@naver.com
   text: pa324@naver.com
-blog:
+homepage:
   url: https://syundev.tistory.com/
   text: https://syundev.tistory.com/
-github:
-  url: https://github.com/pa324
-  text: https://github.com/pa324
-  
 ---
 
 # 박상윤
@@ -62,7 +58,7 @@ Supported arguments:
 
 ### 2. 기술스택
 
-- Java 11, Spring Boot 2.3.3, Ehcache
+- Java 11, Spring Boot 2.3.3, Ehcache, hystrix
 
 ### 3. 역할
 
@@ -89,8 +85,10 @@ Supported arguments:
 - 물리서버에서 수집하던 통합재고 API의 모니터링 인프라를 클라우드 환경으로 이관
 - 운영중인 서비스 쿠버네티스 신규 클러스터로 이관
 - 
+
 <br>
 <br>
+
 
 ### [**ListingQuotaService 유지보수**]
 
@@ -102,6 +100,9 @@ Supported arguments:
 
 - ListingQuotaService라는 .NET기반 배치시스템 내부에서 가입기간에 상관없이 3개월 평균으로 계산하던 로직을 가입기간에 따라 평균을 다르게 계산하도록 요구사항 수정
 - 하나의 메서드에서 모든 로직이 진행되던 코드를 비스니스 절차에 맞게 메서드 분리작업
+
+<br>
+<br>
 
 
 ## Education
