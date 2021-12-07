@@ -50,7 +50,6 @@ Supported arguments:
   
 
 <br>
-<br>
 
 ### [**옥션 실시간 이미지 리사이징 전환**]
 
@@ -70,7 +69,6 @@ Supported arguments:
 - iac-image애플리케이션 쿠버네티스 인프라 설정 작업
 
 <br>
-<br>
 
 ### [**통합 재고 API 유지보수**]
 
@@ -88,7 +86,6 @@ Supported arguments:
 - 운영중인 서비스 쿠버네티스 신규 클러스터로 이관
 
 <br>
-<br>
 
 
 ### [**ListingQuotaService 유지보수**]
@@ -103,12 +100,6 @@ Supported arguments:
 - 하나의 메서드에서 모든 로직이 진행되던 코드를 비스니스 절차에 맞게 메서드 분리작업
 
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 ## Education
 
@@ -121,9 +112,6 @@ Supported arguments:
 - [atdd-subway-path](https://github.com/pa324/atdd-subway-path)
 - [atdd-subway-favorite](https://github.com/pa324/atdd-subway-favorite)
 - [atdd-subway-map](https://github.com/pa324/atdd-subway-map)
-
-
-<br>
 
 
 
