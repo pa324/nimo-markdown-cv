@@ -2,14 +2,15 @@
 layout: cv
 title: 
 email:
-  url: dyrnxm52@hanmail.net
-  text: dyrnxm52@hanmail.net
+  url: pa324@naver.com
+  text: pa324@naver.com
 blog:
   url: https://syundev.tistory.com/
   text: https://syundev.tistory.com/
 github:
   url: https://github.com/pa324
   text: https://github.com/pa324
+  
 ---
 
 # 
@@ -70,7 +71,7 @@ Supported arguments:
 <br>
 <br>
 
-### [**통합 재고 API 유지보수 **]
+### [**통합 재고 API 유지보수**]
 
 ### 1. 소개
   
