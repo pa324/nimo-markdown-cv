@@ -37,7 +37,7 @@ Supported arguments:
 
 ### 2. 기술스택
 
-- Java 11, Spring Boot 2.3.3, Apache Kafka,Apache poi MSSQL, Vue.js, Typescript
+- Java 11, Spring Boot 2.3.3, Apache Kafka,Apache poi, MSSQL, Vue.js, Typescript
 
    
 ### 3. 역할
@@ -65,8 +65,24 @@ Supported arguments:
 
 - iac-image애플리케이션에 로컬캐시 적용 및 코드의 안정성을 올리기위해 단위테스트코드 작성
   - 서킷브레이커 open/close관련 단위테스트코드 작성
-  - 원본이미지 제공용 iis서버 세팅
+- 원본이미지 제공용 iis서버 세팅
 - iac-image애플리케이션 쿠버네티스 인프라 설정 작업
+
+<br>
+
+### [**상품 SD속성정보 일괄삭제 Admin 개발**]
+
+### 1. 소개
+  
+- 분산환경의 2.0 상품 SD속성 매칭정보를 삭제하는 Admin개발
+
+### 2. 기술스택
+
+- .NET MVC
+
+### 3. 역할
+
+- esm+,gmarket,auction API로 분환경에서 보상트랜잭션을 통해 애플리케이션 레벨에서 데이터 정합성 유지가 가능하도록 SD속성 일괄삭제기능 개발
 
 <br>
 
