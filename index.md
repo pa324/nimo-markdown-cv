@@ -82,7 +82,7 @@ Supported arguments:
 
 ### 3. 역할
 
-- esm+,gmarket,auction API로 분산환경에서 보상트랜잭션을 통해 애플리케이션 레벨에서 데이터 정합성 유지가 가능하도록 SD속성 일괄삭제기능 개발
+- esm+,gmarket,auction API로 분리된 분산환경에서 보상트랜잭션을 통해 애플리케이션 레벨에서 데이터 정합성 유지가 가능하도록 SD속성 일괄삭제기능 개발
 
 <br>
 
