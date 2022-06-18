@@ -32,6 +32,7 @@ Supported arguments:
 
 ### [**ESM+ 상품 엑셀일괄등록 API 개발**]
 
+### 1. 소개
 - 지마켓,옥션 통합상품관리 플랫폼인 ESM+에서 2.0 일반상품을 엑셀에 입력하여 대량으로 등록할 수 있는 API 개발
 - Apache POI를 활용해서 엑셀파일을 자바객체로 변환하는 모듈 개발
 - 인터페이스를 활용해서 일반배송상품/스마일배송상품 등록에 필요한 json모델로 변환하는 컨버팅 로직 개발
@@ -44,11 +45,11 @@ Supported arguments:
 - Java 11, Spring Boot 2.3.3, Apache Kafka,Apache poi, MSSQL, Vue.js, Typescript
 
 
-  
+<br>
 <br>
 
-
 ### [**상품 통합 재고 API 개선**]
+
 
 ### 1. 소개
   
@@ -61,13 +62,12 @@ Supported arguments:
 - Java 11, Spring Boot 2.3.3
 
 <br>
+<br>
 
 ### [**esm+ vue.js전환**]
 
 ### 1. 소개
-- esm+의 판배상품별 일괄공지를 .NET Razor 서버사이드렌더링코드를 Vue.js로 전환
-- esm+의 2.0상품등록 상품상세설명 등록/수정 컴포넌트 .NET Razor 서버사이드렌더링코드를 Vue.js로 전환
-
+- esm+의 판배상품별 일괄공지, 2.0상품등록 상품상세설명 등록/수정 컴포넌트 .NET Razor 서버사이드렌더링코드를 Vue.js로 전환
 
 ### 2. 기술스택
 
